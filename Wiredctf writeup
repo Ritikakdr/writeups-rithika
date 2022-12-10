@@ -1,0 +1,33 @@
+WIRED CTF
+CRYPTOGRAPHY
+life timesettlement:
+A text was given, At first I thought it should get converted from binary to text form. But then after many attempts i tried analysing the cipher. I got to know that it was spoon
+
+And the flag was:wired{0nc3_ap0n_a_t1m3_th3r3_L1ved_a_g0st_V1kr4m}
+
+Caesar cipher:
+I had to figure out the given cipher text, so used a online cipher decoder and got the flag :wired{a_g3nt1n_w1ll_1n}
+
+da_french_cipher:
+The french cipher also known as vigenere cipher, converting the text to vigenere cipher I got the flag.wired{w3lc0m3_t0_th3_w0rld_0f_c1ph3rs}
+
+WIRELESS
+Chan’s favourite:
+An audio file was given,I used Audacity,uploaded the audio there and changed it from waveform to spectogram and found Rick Astley’s picture in it. The flag was Rick Astley
+
+Dots and Dashes:
+An audio file was given , as the name suggests dots and dashes its a morse code, so I uploaded the audio file on a online morse code audio decoder and got the flagC T F R 1 C K R 0 1 1 3 D O N M R S 3
+
+OSINT:
+find_thyself:
+A image file was given , A power socket of bticino
+
+The flag was the country’s name, that is Italy.
+
+REVERSING
+grep_it:
+I used the grep command to find the flag in the file , * cat < file name > | grep -a < word > *
+
+grep_it:
+same as the before one
+
