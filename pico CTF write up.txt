@@ -1,17 +1,11 @@
-PICO CTF
+###PICO CTF
 
-.  Cryptography
+##Cryptography
    the challenge is about ROT13 caeser cipher and how it works,basically it shifts the alphabet by 13 places.
 
-.  General Skills- tab,tab attack
-   The challenge is about using basic commands in linux to open the file,view what's inside it.
-   I used 
-   cd to change the directory
-   ls to list the files
-   cat to display the contents of the file
 
 
-. Cryptography
+#
 
 A image is provided with a numeric text, the numbers were the represntations of alphabets like:
 
@@ -20,54 +14,65 @@ a b c d e f g h i j  k  l  m  n  o  p  q  r  s  t   u   v   w   x   y  z
 
 decoding this we get the flag.
 
+## General Skills
+
+#transposition trial
+  The given text comprised of the file,but was scrambled by three places each 
+  the first letter was in the same place , so we wrote a python script using for loop 
+  and found the flag.
 
 
-. General skills - warmed up
+#warmed up
   converted the text from Hexadecimal to decimal
  0x3D(hexadecimal)=61(decimal)
 
 
-. General skills - 2warm
+#tab,tab attack
+   The challenge is about using basic commands in linux to open the file,view what's inside it.
+   I used 
+   cd to change the directory
+   ls to list the files
+   cat to display the contents of the file
+
+#2warm
   convert the number from base 10 to binary(base2)
  
-
-. General skills - convertme.py
+#convertme.py
   run the given python code
   convert the number from decimal to binary base
   enter the answer in the python code
   flag is displayed
 
 
-. General skills - Glitch cat
+#Glitch cat
   half of the flag was ASCII 
   used python to get the ASCII values , submitted the flag.
 
-. General skilss- fixme1.py
+ #fixme1.py
   found the mistakes in the python script
   ran the python code after correcting it, got the flag.
 
-. General skills - first grep
+#first grep
   a file was provided,used grep command to find the flag
  grep 'picoctf' file
 
 
-. Forensics - information
+
+##Forensics
+
+#information
   a jpf file format was provided,we had to find the flag in it.
   using ghex command we found that there were few base 64 type fonts
   decoding it we got the flag.
 
-. Forensics - lookey here
+#lookey here
   dowwnloaded the file
   used grep command to find the flag
 
-.  Forensics -   so meta
+#so meta
    used Exiftool to see the meta data of the image
    the flag was stored in the metadata.
 
-. Cryptography - transposition trial
-  The given text comprised of the file,but was scrambled by three places each 
-  the first letter was in the same place , so we wrote a python script using for loop 
-  and found the flag.
 
 
 
