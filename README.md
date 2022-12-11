@@ -64,3 +64,12 @@ Tar: helps extract files
 
 Xfv: used to extract file in archived files
 And got the password after multiple trials.
+
+## Level 13 to 14:
+I used the ssh -i command to access the bandit14 level
+and then used 
+' cat /etc/bandit_pass/bandit14 '
+to get the passsword for the level 15
+
+
+
