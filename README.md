@@ -3,6 +3,8 @@ BANDIT – OVER THE WIRE
 
 ## Level 0:
 Logged into the game using this command ssh
+ls
+cat readme
 
 The password for this level is bandit0
 ## Level 0 to Level 1:
